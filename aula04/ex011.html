@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex de localidade.</title>
+    <style>
+        body {
+            background: linear-gradient(to top, rgb(31, 72, 209), rgb(66, 188, 236), rgb(74, 190, 243)
+            );
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 96.8vh;
+        }
+
+        #bloco{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 30px;
+            width: 500px;
+            height: 280px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.767);
+
+        }
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.8em;
+        }
+
+        section {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        input  {
+            width: 180px;
+            margin-bottom: 20px;
+        }
+
+        
+
+        #res{
+            padding-top: 15px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="bloco">
+        <section>
+            <h1>Localizando Nacionalidade</h1>
+                <p>Em que país vc mora? </p><br>
+                <input type="text" name="txtp" id="itxtp">
+                <input type="button" value="Checar" onclick="calcular()">
+            <div id="res">
+            </div>
+        </section>
+         <script>
+            var pais = 'Brasil'
+            function calcular() {
+                var tentativa = document.getElementById('itxtp').value;
+                if (tentativa == pais)
+                res.innerHTML = ("Você é Brasileiro!")
+                else
+                res.innerHTML = ("Você é Estrangeiro!")
+            }
+        </script>
+    </div>
+</body>
+</html>
