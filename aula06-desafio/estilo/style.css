@@ -18,6 +18,11 @@ header {
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.541);
 }
 
+img {
+    width: 100px;
+    height: ;
+}
+
 section {
     background: white;
     border-radius: 10px;
