@@ -23,6 +23,14 @@ img {
     height: ;
 }
 
+div {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
 section {
     background: white;
     border-radius: 10px;
