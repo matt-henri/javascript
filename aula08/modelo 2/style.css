@@ -23,6 +23,15 @@ img {
     height: ;
 }
 
+#seltab{
+    margin: 18px;
+}
+
+.caixa1 {
+    margin-left: 5px;
+    padding: 10px;
+}
+
 section {
     background: white;
     border-radius: 10px;
