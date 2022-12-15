@@ -10,10 +10,15 @@ function contar() {
         var i = Number(ini.value)
         var f = Number(fim.value)
         var p = Number(passo.value)
-
-        for(var c =  i; c <= f; c+=p) {
-            res.innerHTML += `${c}`
+    if (i < f) {
+        for(var c = i; c <= f; c += p) {
+            res.innerHTML += `${c}  - `
+        }  
+    } else {
+        for(var c = i; c >= f; c-= p) {
+            res.innerHTML += `${c}  - `
         }
     }
-    
+    res.innerHTML += ` .`
+}
 }
