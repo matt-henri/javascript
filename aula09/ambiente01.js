@@ -9,3 +9,7 @@ console.log(`nosso vetor é o ${num}`)
 num.push(7)
 
 console.log(`nosso vetor é o ${num}`)
+
+num.sort()
+
+console.log(`o vetor é ${num }`)
