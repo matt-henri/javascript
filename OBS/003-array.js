@@ -1,17 +1,25 @@
-var arr = [5, "Mateus", true, {teste: 1, teste: 2}] //obj => {}
+var arrA = [5, "Mateus", true, {teste: 1, teste: 2}] //obj => {}
 
-console.log(arr)
+console.log(arrA)
 
-var arr2 = [2,3,4,5,6]
+var arrB = [2,3,4,5,6]
 
-console.log(arr2)
+console.log(arrB)
 
-console.log(arr[1])
-console.log(arr2[0])
+console.log(arrA[1])
+console.log(arrB[0])
 
-arr[4] = 10
+arrA[4] = 10
 
-console.log(arr)
+console.log(arrA)
 
-arr2[5] = 7
-console.log(arr2)
+arrB[5] = 7
+console.log(arrB)
+
+let arr1 = [0,1,2]
+let arr2 = [3,4,5]
+
+console.log(arr1,arr2)
+
+const result = arr1.concat(arr2)
+console.log(result)
