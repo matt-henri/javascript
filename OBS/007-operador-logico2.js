@@ -20,4 +20,4 @@ if(nome == "Pedro" || idade > 14 ) {
 
 if(nome == "Pedro" && 15 > 20 || 10 == 10) {
     console.log("testando")
-}
+} 
