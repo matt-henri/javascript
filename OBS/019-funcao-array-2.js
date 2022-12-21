@@ -22,6 +22,6 @@
  console.log(arr2.join(" , "))
 
  //reverse
- // inverte a ordem das strings dentro do array
+ // inverte a ordem das strings dentro do array 
  console.log(arr2.reverse())
 
