@@ -39,3 +39,16 @@ console.log(somaUm)
 
 var somaDois = soma(5, 6)
 console.log(somaDois)
+
+
+
+let x = 15
+
+function matt() {
+    let teste = 5
+    console.log(teste)
+}
+
+matt()
+
+console.log("testando o let x = " + x)
