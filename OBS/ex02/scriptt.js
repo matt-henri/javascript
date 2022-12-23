@@ -1,4 +1,6 @@
 // tag
+var
+
 var titulo = document.getElementsByTagName('h1')[0]
 console.log(titulo)
 
