@@ -1,3 +1,3 @@
-var preco = 100
+const fahrenheit = 82
 
-console.log(`o imposto é de ${((preco * 60) / 100)}`)
+console.log(`o valor em celcius é ${((fahrenheit - 32) / 1.8).toFixed(1)}`)
