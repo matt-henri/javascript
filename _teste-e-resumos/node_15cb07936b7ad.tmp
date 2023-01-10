@@ -11,6 +11,6 @@ for (var v = 10; v >= 1; v--) {
 console.log('concluído')
 */
 
-for (var h = 1; h <= 20; h++) {
+for (var h = 1; h <= 20; h = +2) {
     console.log(h)
 }
