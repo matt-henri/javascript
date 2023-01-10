@@ -1,4 +1,4 @@
-const peso = 65
+const peso = 64
 const altura = 1.73
 
 let calc = altura * 2
