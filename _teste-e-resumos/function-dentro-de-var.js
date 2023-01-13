@@ -11,4 +11,5 @@ console.log(amigo)
 
 
 amigo.engordar(2)
-console.log(`${amigo.nome} pesa ${amigo.peso}Kg`) 
+console.log(`${amigo.nome} pesa ${amigo.peso}Kg`)
+ 
