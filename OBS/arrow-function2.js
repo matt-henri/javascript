@@ -17,3 +17,8 @@ console.log(sumDois(4, 4))
 
 const sumTres = (num1, num2) => num1 + num2
 console.log(sumTres(3, 3))
+
+// outro exemplo
+
+const double = (number) => number * 2
+console.log(double(8))
