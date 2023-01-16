@@ -5,17 +5,19 @@
 
 */
 
-// exemplo que funciona
+//           ---   exemplo que funciona   ---
 
 const sum = number => number * 2
 
 console.log(sum(5))
 
-// exemplo que não funciona
+//           ---   exemplo que não funciona   ---
 
-const sumDois = number1, number2 => number1 + number2
+// const sumDois = number1, number2 => number1 + number2
 
-console.log(sumDois(2, 2))
+
+
+
 
 // neste caso o arrow function teria que ficar assim
 
