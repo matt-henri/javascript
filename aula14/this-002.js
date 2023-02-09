@@ -13,4 +13,4 @@ let cidade = {
     }
 }
 
-console.log(cidade.local())
+console.log(cidade.local()) 
