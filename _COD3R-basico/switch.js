@@ -22,4 +22,4 @@ const imprimirResultado = function (nota) {
     }
 }
 
-imprimirResultado(9)
+imprimirResultado(7)
