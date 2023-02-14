@@ -10,6 +10,7 @@ fabricantes.forEach(fabricantes => console.log(fabricantes))
 
 const marcas =  ['iphone', 'samsung', 'motorola']
 
+
 function check(name, indic) {
     console.log(`${indic + 1}. ${name}`)
 }
